@@ -7,42 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD5B46162878C76700E83C87 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B46152878C76700E83C87 /* Tests_iOS.swift */; };
-		AD5B46182878C76700E83C87 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B46172878C76700E83C87 /* Tests_iOSLaunchTests.swift */; };
 		AD5B46252878C76700E83C87 /* ShimmerEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B45FD2878C76600E83C87 /* ShimmerEffectApp.swift */; };
-		AD5B46272878C76700E83C87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B45FE2878C76600E83C87 /* ContentView.swift */; };
+		AD5B46272878C76700E83C87 /* ImplementationStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B45FE2878C76600E83C87 /* ImplementationStepsView.swift */; };
 		AD5B46292878C76700E83C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5B45FF2878C76700E83C87 /* Assets.xcassets */; };
+		AD5B463B287A245900E83C87 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B463A287A245900E83C87 /* DescriptionView.swift */; };
+		AD5B463E287A24F400E83C87 /* IfViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B463D287A24F400E83C87 /* IfViewModifier.swift */; };
+		AD5B4641287A25D900E83C87 /* RedactedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B4640287A25D900E83C87 /* RedactedModifier.swift */; };
+		AD5B4643287A278200E83C87 /* ShimmerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B4642287A278200E83C87 /* ShimmerModifier.swift */; };
+		AD5B4645287A289000E83C87 /* DummyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B4644287A289000E83C87 /* DummyRowView.swift */; };
+		AD5B4647287A2A3100E83C87 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B4646287A2A3100E83C87 /* ExampleView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AD5B46122878C76700E83C87 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AD5B45F82878C76600E83C87 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD5B46032878C76700E83C87;
-			remoteInfo = "ShimmerEffect (iOS)";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AD5B45FD2878C76600E83C87 /* ShimmerEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffectApp.swift; sourceTree = "<group>"; };
-		AD5B45FE2878C76600E83C87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD5B45FE2878C76600E83C87 /* ImplementationStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementationStepsView.swift; sourceTree = "<group>"; };
 		AD5B45FF2878C76700E83C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD5B46042878C76700E83C87 /* ShimmerEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD5B46112878C76700E83C87 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD5B46152878C76700E83C87 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		AD5B46172878C76700E83C87 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD5B463A287A245900E83C87 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		AD5B463D287A24F400E83C87 /* IfViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfViewModifier.swift; sourceTree = "<group>"; };
+		AD5B4640287A25D900E83C87 /* RedactedModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedModifier.swift; sourceTree = "<group>"; };
+		AD5B4642287A278200E83C87 /* ShimmerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerModifier.swift; sourceTree = "<group>"; };
+		AD5B4644287A289000E83C87 /* DummyRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyRowView.swift; sourceTree = "<group>"; };
+		AD5B4646287A2A3100E83C87 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AD5B46012878C76700E83C87 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD5B460E2878C76700E83C87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				AD5B45FC2878C76600E83C87 /* Shared */,
-				AD5B46142878C76700E83C87 /* Tests iOS */,
 				AD5B46052878C76700E83C87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,8 +53,12 @@
 		AD5B45FC2878C76600E83C87 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				AD5B463F287A25C800E83C87 /* ViewModifier */,
+				AD5B463C287A24D500E83C87 /* ViewUtility */,
+				AD5B4639287A244300E83C87 /* UltilityView */,
 				AD5B45FD2878C76600E83C87 /* ShimmerEffectApp.swift */,
-				AD5B45FE2878C76600E83C87 /* ContentView.swift */,
+				AD5B45FE2878C76600E83C87 /* ImplementationStepsView.swift */,
+				AD5B4646287A2A3100E83C87 /* ExampleView.swift */,
 				AD5B45FF2878C76700E83C87 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -75,18 +68,34 @@
 			isa = PBXGroup;
 			children = (
 				AD5B46042878C76700E83C87 /* ShimmerEffect.app */,
-				AD5B46112878C76700E83C87 /* Tests iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD5B46142878C76700E83C87 /* Tests iOS */ = {
+		AD5B4639287A244300E83C87 /* UltilityView */ = {
 			isa = PBXGroup;
 			children = (
-				AD5B46152878C76700E83C87 /* Tests_iOS.swift */,
-				AD5B46172878C76700E83C87 /* Tests_iOSLaunchTests.swift */,
+				AD5B463A287A245900E83C87 /* DescriptionView.swift */,
+				AD5B4644287A289000E83C87 /* DummyRowView.swift */,
 			);
-			path = "Tests iOS";
+			path = UltilityView;
+			sourceTree = "<group>";
+		};
+		AD5B463C287A24D500E83C87 /* ViewUtility */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B463D287A24F400E83C87 /* IfViewModifier.swift */,
+			);
+			path = ViewUtility;
+			sourceTree = "<group>";
+		};
+		AD5B463F287A25C800E83C87 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B4640287A25D900E83C87 /* RedactedModifier.swift */,
+				AD5B4642287A278200E83C87 /* ShimmerModifier.swift */,
+			);
+			path = ViewModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,24 +118,6 @@
 			productReference = AD5B46042878C76700E83C87 /* ShimmerEffect.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AD5B46102878C76700E83C87 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD5B46332878C76700E83C87 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				AD5B460D2878C76700E83C87 /* Sources */,
-				AD5B460E2878C76700E83C87 /* Frameworks */,
-				AD5B460F2878C76700E83C87 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AD5B46132878C76700E83C87 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = AD5B46112878C76700E83C87 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -139,10 +130,6 @@
 				TargetAttributes = {
 					AD5B46032878C76700E83C87 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					AD5B46102878C76700E83C87 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = AD5B46032878C76700E83C87;
 					};
 				};
 			};
@@ -160,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				AD5B46032878C76700E83C87 /* ShimmerEffect (iOS) */,
-				AD5B46102878C76700E83C87 /* Tests iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -174,13 +160,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD5B460F2878C76700E83C87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -188,29 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD5B46272878C76700E83C87 /* ContentView.swift in Sources */,
+				AD5B463B287A245900E83C87 /* DescriptionView.swift in Sources */,
+				AD5B463E287A24F400E83C87 /* IfViewModifier.swift in Sources */,
+				AD5B4643287A278200E83C87 /* ShimmerModifier.swift in Sources */,
+				AD5B4647287A2A3100E83C87 /* ExampleView.swift in Sources */,
+				AD5B46272878C76700E83C87 /* ImplementationStepsView.swift in Sources */,
+				AD5B4645287A289000E83C87 /* DummyRowView.swift in Sources */,
+				AD5B4641287A25D900E83C87 /* RedactedModifier.swift in Sources */,
 				AD5B46252878C76700E83C87 /* ShimmerEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD5B460D2878C76700E83C87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD5B46182878C76700E83C87 /* Tests_iOSLaunchTests.swift in Sources */,
-				AD5B46162878C76700E83C87 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AD5B46132878C76700E83C87 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AD5B46032878C76700E83C87 /* ShimmerEffect (iOS) */;
-			targetProxy = AD5B46122878C76700E83C87 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AD5B462B2878C76700E83C87 /* Debug */ = {
@@ -385,47 +353,6 @@
 			};
 			name = Release;
 		};
-		AD5B46342878C76700E83C87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9S84Q43P56;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hung-chun.tsai.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ShimmerEffect (iOS)";
-			};
-			name = Debug;
-		};
-		AD5B46352878C76700E83C87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9S84Q43P56;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hung-chun.tsai.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ShimmerEffect (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -443,15 +370,6 @@
 			buildConfigurations = (
 				AD5B462E2878C76700E83C87 /* Debug */,
 				AD5B462F2878C76700E83C87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AD5B46332878C76700E83C87 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD5B46342878C76700E83C87 /* Debug */,
-				AD5B46352878C76700E83C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
