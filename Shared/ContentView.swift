@@ -35,9 +35,12 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            HStack {
+                Text("Start X Point: \(startPoint, specifier: "%.2f"), End Point: \(endPoint, specifier: "%.2f")")
+            }
             
             // Step 1: Create the LinearGradient mask which can shift the gradient color base on the startPoint and endPoint
-            
+
             // MARK: Offset control for Step 1 and Step 2
             Slider(value: $offset, in: 0...2) { editing in
             }.padding(.horizontal, 50)

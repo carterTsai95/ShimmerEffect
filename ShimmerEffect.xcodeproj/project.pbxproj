@@ -9,14 +9,9 @@
 /* Begin PBXBuildFile section */
 		AD5B46162878C76700E83C87 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B46152878C76700E83C87 /* Tests_iOS.swift */; };
 		AD5B46182878C76700E83C87 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B46172878C76700E83C87 /* Tests_iOSLaunchTests.swift */; };
-		AD5B46222878C76700E83C87 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B46212878C76700E83C87 /* Tests_macOS.swift */; };
-		AD5B46242878C76700E83C87 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B46232878C76700E83C87 /* Tests_macOSLaunchTests.swift */; };
 		AD5B46252878C76700E83C87 /* ShimmerEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B45FD2878C76600E83C87 /* ShimmerEffectApp.swift */; };
-		AD5B46262878C76700E83C87 /* ShimmerEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B45FD2878C76600E83C87 /* ShimmerEffectApp.swift */; };
 		AD5B46272878C76700E83C87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B45FE2878C76600E83C87 /* ContentView.swift */; };
-		AD5B46282878C76700E83C87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B45FE2878C76600E83C87 /* ContentView.swift */; };
 		AD5B46292878C76700E83C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5B45FF2878C76700E83C87 /* Assets.xcassets */; };
-		AD5B462A2878C76700E83C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5B45FF2878C76700E83C87 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +22,6 @@
 			remoteGlobalIDString = AD5B46032878C76700E83C87;
 			remoteInfo = "ShimmerEffect (iOS)";
 		};
-		AD5B461E2878C76700E83C87 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AD5B45F82878C76600E83C87 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD5B46092878C76700E83C87;
-			remoteInfo = "ShimmerEffect (macOS)";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -41,25 +29,13 @@
 		AD5B45FE2878C76600E83C87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD5B45FF2878C76700E83C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD5B46042878C76700E83C87 /* ShimmerEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD5B460A2878C76700E83C87 /* ShimmerEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD5B460C2878C76700E83C87 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		AD5B46112878C76700E83C87 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5B46152878C76700E83C87 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		AD5B46172878C76700E83C87 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		AD5B461D2878C76700E83C87 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD5B46212878C76700E83C87 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		AD5B46232878C76700E83C87 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AD5B46012878C76700E83C87 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD5B46072878C76700E83C87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD5B461A2878C76700E83C87 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,9 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				AD5B45FC2878C76600E83C87 /* Shared */,
-				AD5B460B2878C76700E83C87 /* macOS */,
 				AD5B46142878C76700E83C87 /* Tests iOS */,
-				AD5B46202878C76700E83C87 /* Tests macOS */,
 				AD5B46052878C76700E83C87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,19 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				AD5B46042878C76700E83C87 /* ShimmerEffect.app */,
-				AD5B460A2878C76700E83C87 /* ShimmerEffect.app */,
 				AD5B46112878C76700E83C87 /* Tests iOS.xctest */,
-				AD5B461D2878C76700E83C87 /* Tests macOS.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AD5B460B2878C76700E83C87 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				AD5B460C2878C76700E83C87 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 		AD5B46142878C76700E83C87 /* Tests iOS */ = {
@@ -130,15 +87,6 @@
 				AD5B46172878C76700E83C87 /* Tests_iOSLaunchTests.swift */,
 			);
 			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		AD5B46202878C76700E83C87 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				AD5B46212878C76700E83C87 /* Tests_macOS.swift */,
-				AD5B46232878C76700E83C87 /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,23 +109,6 @@
 			productReference = AD5B46042878C76700E83C87 /* ShimmerEffect.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AD5B46092878C76700E83C87 /* ShimmerEffect (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD5B46302878C76700E83C87 /* Build configuration list for PBXNativeTarget "ShimmerEffect (macOS)" */;
-			buildPhases = (
-				AD5B46062878C76700E83C87 /* Sources */,
-				AD5B46072878C76700E83C87 /* Frameworks */,
-				AD5B46082878C76700E83C87 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ShimmerEffect (macOS)";
-			productName = "ShimmerEffect (macOS)";
-			productReference = AD5B460A2878C76700E83C87 /* ShimmerEffect.app */;
-			productType = "com.apple.product-type.application";
-		};
 		AD5B46102878C76700E83C87 /* Tests iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5B46332878C76700E83C87 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
@@ -196,24 +127,6 @@
 			productReference = AD5B46112878C76700E83C87 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		AD5B461C2878C76700E83C87 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD5B46362878C76700E83C87 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				AD5B46192878C76700E83C87 /* Sources */,
-				AD5B461A2878C76700E83C87 /* Frameworks */,
-				AD5B461B2878C76700E83C87 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AD5B461F2878C76700E83C87 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = AD5B461D2878C76700E83C87 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,16 +140,9 @@
 					AD5B46032878C76700E83C87 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					AD5B46092878C76700E83C87 = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
 					AD5B46102878C76700E83C87 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = AD5B46032878C76700E83C87;
-					};
-					AD5B461C2878C76700E83C87 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = AD5B46092878C76700E83C87;
 					};
 				};
 			};
@@ -254,9 +160,7 @@
 			projectRoot = "";
 			targets = (
 				AD5B46032878C76700E83C87 /* ShimmerEffect (iOS) */,
-				AD5B46092878C76700E83C87 /* ShimmerEffect (macOS) */,
 				AD5B46102878C76700E83C87 /* Tests iOS */,
-				AD5B461C2878C76700E83C87 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -270,22 +174,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD5B46082878C76700E83C87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD5B462A2878C76700E83C87 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AD5B460F2878C76700E83C87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD5B461B2878C76700E83C87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,30 +193,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD5B46062878C76700E83C87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD5B46282878C76700E83C87 /* ContentView.swift in Sources */,
-				AD5B46262878C76700E83C87 /* ShimmerEffectApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AD5B460D2878C76700E83C87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD5B46182878C76700E83C87 /* Tests_iOSLaunchTests.swift in Sources */,
 				AD5B46162878C76700E83C87 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD5B46192878C76700E83C87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD5B46242878C76700E83C87 /* Tests_macOSLaunchTests.swift in Sources */,
-				AD5B46222878C76700E83C87 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,11 +209,6 @@
 			isa = PBXTargetDependency;
 			target = AD5B46032878C76700E83C87 /* ShimmerEffect (iOS) */;
 			targetProxy = AD5B46122878C76700E83C87 /* PBXContainerItemProxy */;
-		};
-		AD5B461F2878C76700E83C87 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AD5B46092878C76700E83C87 /* ShimmerEffect (macOS) */;
-			targetProxy = AD5B461E2878C76700E83C87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -519,62 +385,6 @@
 			};
 			name = Release;
 		};
-		AD5B46312878C76700E83C87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9S84Q43P56;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hung-chun.tsai.ShimmerEffect";
-				PRODUCT_NAME = ShimmerEffect;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		AD5B46322878C76700E83C87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9S84Q43P56;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hung-chun.tsai.ShimmerEffect";
-				PRODUCT_NAME = ShimmerEffect;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		AD5B46342878C76700E83C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -616,44 +426,6 @@
 			};
 			name = Release;
 		};
-		AD5B46372878C76700E83C87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9S84Q43P56;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hung-chun.tsai.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "ShimmerEffect (macOS)";
-			};
-			name = Debug;
-		};
-		AD5B46382878C76700E83C87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9S84Q43P56;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hung-chun.tsai.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "ShimmerEffect (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -675,29 +447,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD5B46302878C76700E83C87 /* Build configuration list for PBXNativeTarget "ShimmerEffect (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD5B46312878C76700E83C87 /* Debug */,
-				AD5B46322878C76700E83C87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AD5B46332878C76700E83C87 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD5B46342878C76700E83C87 /* Debug */,
 				AD5B46352878C76700E83C87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AD5B46362878C76700E83C87 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD5B46372878C76700E83C87 /* Debug */,
-				AD5B46382878C76700E83C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
