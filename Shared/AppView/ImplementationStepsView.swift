@@ -34,7 +34,7 @@ struct ImplementationStepsView: View {
     @State private var desiredEndPoint = UnitPoint(x: 2, y: 0)
     
 
-    @State private var progress = 0.0
+    @State private var maskOffset = 0.0
     @State private var stepThreeProgress = 0.0
     private var effectRadius = 0.4
     let centerColor = Color.white.opacity(0.2)
@@ -43,27 +43,21 @@ struct ImplementationStepsView: View {
     var body: some View {
         ScrollView {
             HStack {
-                Text("Animation progress: \(progress, specifier: "%.2f")")
+                Text("Mask offset: \(maskOffset - effectRadius, specifier: "%.2f")")
             }
 
             // MARK: Offset control for Step 1 and Step 2
 
-            Slider(value: $progress, in: 0...1 + effectRadius) { _ in }
+            Slider(value: $maskOffset, in: 0...1 + effectRadius) { _ in }
                 .padding(.horizontal, 50)
-            
-            /* Note:
-             1. startPoint X: 0 equal leading
-             2. startPoint X: 1 equal trailing
-             
-             The purpose we want to shift our shimmer effect from the leading to trailing. In order to do that, we shift our startPoint to -1 which will be left side of leading. At this moment the end point will be 0 which will be our leading.
-             */
+
             ResultView(description: "Result of step 1") {
                 LinearGradient(
                     gradient: Gradient(
                         stops: [
-                            .init(color: edgeColor, location: -effectRadius + progress),
-                            .init(color: centerColor, location: -effectRadius/2 + progress),
-                            .init(color: edgeColor, location: progress)
+                            .init(color: edgeColor, location: -effectRadius + maskOffset),
+                            .init(color: centerColor, location: -effectRadius/2 + maskOffset),
+                            .init(color: edgeColor, location: maskOffset)
                         ]
                     ),
                     startPoint: .leading,
@@ -83,9 +77,9 @@ struct ImplementationStepsView: View {
                     LinearGradient(
                         gradient: Gradient(
                             stops: [
-                                .init(color: edgeColor, location: -effectRadius + progress),
-                                .init(color: centerColor, location: -effectRadius/2 + progress),
-                                .init(color: edgeColor, location: progress)
+                                .init(color: edgeColor, location: -effectRadius + maskOffset),
+                                .init(color: centerColor, location: -effectRadius/2 + maskOffset),
+                                .init(color: edgeColor, location: maskOffset)
                             ]
                         ),
                         startPoint: .leading,
