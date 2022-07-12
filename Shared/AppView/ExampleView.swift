@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct ExampleView: View {
+    @State private var isRedacted = true
+
     var body: some View {
-        VStack {
+        ScrollView {
             DummyRowView()
-                .redacted(if: true)
+                .redacted(if: isRedacted)
+            Button {
+                isRedacted.toggle()
+            } label: {
+                Text("Toggle redacted...")
+            }
+
         }
     }
 }
