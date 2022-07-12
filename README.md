@@ -1,7 +1,3 @@
-![Swift](https://img.shields.io/badge/Swift-5.0-brightgreen)
-![Swift](https://img.shields.io/badge/iOS-13.0-brightgreen)
-![Swift](https://img.shields.io/badge/SwiftUI-2.0-brightgreen)
-
 # SwiftUI - ShimmerEffect
 <br />
 <p align="center">
