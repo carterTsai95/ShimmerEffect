@@ -18,3 +18,14 @@ extension View {
         )
     }
 }
+
+extension View where Self: ShimmerRedactableView {
+    func redacted(when condition: Bool) -> some View {
+        modifier(
+            GenericShimmerRedViewModifier<Self>(shimmerView: Self.shimmerView,
+                                                condition: condition,
+                                                configuration: .default)
+        )
+    }
+
+}
