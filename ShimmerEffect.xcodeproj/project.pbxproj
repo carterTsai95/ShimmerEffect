@@ -19,6 +19,11 @@
 		AD5B4641287A25D900E83C87 /* ShimmerViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B4640287A25D900E83C87 /* ShimmerViewModifier.swift */; };
 		AD5B4645287A289000E83C87 /* DummyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B4644287A289000E83C87 /* DummyRowView.swift */; };
 		AD5B4647287A2A3100E83C87 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B4646287A2A3100E83C87 /* ExampleView.swift */; };
+		CB45380028A93A4C00F3F24C /* ShimmerRedactableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4537FF28A93A4C00F3F24C /* ShimmerRedactableView.swift */; };
+		CB45380328A93C1A00F3F24C /* GenericShimmerRedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45380228A93C1900F3F24C /* GenericShimmerRedViewModifier.swift */; };
+		CB45380828A93CE600F3F24C /* DummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45380728A93CE600F3F24C /* DummyModel.swift */; };
+		CB45380A28A93D9800F3F24C /* DummyModelRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45380928A93D9800F3F24C /* DummyModelRowView.swift */; };
+		CB45380C28A93E1400F3F24C /* DummyExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB45380B28A93E1400F3F24C /* DummyExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +40,11 @@
 		AD5B4640287A25D900E83C87 /* ShimmerViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerViewModifier.swift; sourceTree = "<group>"; };
 		AD5B4644287A289000E83C87 /* DummyRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyRowView.swift; sourceTree = "<group>"; };
 		AD5B4646287A2A3100E83C87 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		CB4537FF28A93A4C00F3F24C /* ShimmerRedactableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerRedactableView.swift; sourceTree = "<group>"; };
+		CB45380228A93C1900F3F24C /* GenericShimmerRedViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericShimmerRedViewModifier.swift; sourceTree = "<group>"; };
+		CB45380728A93CE600F3F24C /* DummyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyModel.swift; sourceTree = "<group>"; };
+		CB45380928A93D9800F3F24C /* DummyModelRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyModelRowView.swift; sourceTree = "<group>"; };
+		CB45380B28A93E1400F3F24C /* DummyExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				AD5B4640287A25D900E83C87 /* ShimmerViewModifier.swift */,
+				CB45380228A93C1900F3F24C /* GenericShimmerRedViewModifier.swift */,
 				AD2F9D5B287D0440008E744B /* ShimmerAnimatableModifier.swift */,
 				AD2F9D59287D040F008E744B /* ShimmerConfiguration.swift */,
 			);
@@ -64,6 +75,7 @@
 				AD2F9D54287B9A04008E744B /* ShimmerEffectEntryView.swift */,
 				AD5B45FE2878C76600E83C87 /* ImplementationStepsView.swift */,
 				AD5B4646287A2A3100E83C87 /* ExampleView.swift */,
+				CB45380B28A93E1400F3F24C /* DummyExampleView.swift */,
 			);
 			path = AppView;
 			sourceTree = "<group>";
@@ -82,6 +94,8 @@
 				AD5B45FD2878C76600E83C87 /* ShimmerEffectApp.swift */,
 				AD2F9D5D287D0684008E744B /* AppView */,
 				AD5B463F287A25C800E83C87 /* ViewModifier */,
+				CB4537FE28A93A3700F3F24C /* Protocols */,
+				CB45380628A93CB700F3F24C /* Models */,
 				AD5B463C287A24D500E83C87 /* ViewUtility */,
 				AD5B4639287A244300E83C87 /* UltilityView */,
 				AD5B45FF2878C76700E83C87 /* Assets.xcassets */,
@@ -102,6 +116,7 @@
 			children = (
 				AD5B463A287A245900E83C87 /* DescriptionView.swift */,
 				AD5B4644287A289000E83C87 /* DummyRowView.swift */,
+				CB45380928A93D9800F3F24C /* DummyModelRowView.swift */,
 			);
 			path = UltilityView;
 			sourceTree = "<group>";
@@ -121,6 +136,22 @@
 				AD2F9D58287D01DB008E744B /* Shimmer */,
 			);
 			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		CB4537FE28A93A3700F3F24C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CB4537FF28A93A4C00F3F24C /* ShimmerRedactableView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CB45380628A93CB700F3F24C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB45380728A93CE600F3F24C /* DummyModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,15 +224,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD2F9D57287D0038008E744B /* RedactedView.swift in Sources */,
+				CB45380028A93A4C00F3F24C /* ShimmerRedactableView.swift in Sources */,
+				CB45380A28A93D9800F3F24C /* DummyModelRowView.swift in Sources */,
 				AD5B463B287A245900E83C87 /* DescriptionView.swift in Sources */,
 				AD5B463E287A24F400E83C87 /* ConditionalView.swift in Sources */,
 				AD2F9D55287B9A04008E744B /* ShimmerEffectEntryView.swift in Sources */,
 				AD5B4647287A2A3100E83C87 /* ExampleView.swift in Sources */,
 				AD2F9D5A287D040F008E744B /* ShimmerConfiguration.swift in Sources */,
+				CB45380C28A93E1400F3F24C /* DummyExampleView.swift in Sources */,
 				AD5B46272878C76700E83C87 /* ImplementationStepsView.swift in Sources */,
 				AD2F9D5C287D0440008E744B /* ShimmerAnimatableModifier.swift in Sources */,
+				CB45380328A93C1A00F3F24C /* GenericShimmerRedViewModifier.swift in Sources */,
 				AD5B4645287A289000E83C87 /* DummyRowView.swift in Sources */,
 				AD5B4641287A25D900E83C87 /* ShimmerViewModifier.swift in Sources */,
+				CB45380828A93CE600F3F24C /* DummyModel.swift in Sources */,
 				AD5B46252878C76700E83C87 /* ShimmerEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

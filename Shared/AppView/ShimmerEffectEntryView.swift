@@ -21,10 +21,18 @@ struct ShimmerEffectEntryView: View {
 
                 NavigationLink(
                     destination: ExampleView()
-                        .navigationTitle("Example and usage")
+                        .navigationTitle("Example and usage 1")
                         .navigationBarTitleDisplayMode(.inline)
                 ) {
-                    Text("Example and usage")
+                    Text("Example and usage 1")
+                }
+
+                NavigationLink(
+                    destination: DummyExampleView()
+                        .navigationTitle("Example and usage 2")
+                        .navigationBarTitleDisplayMode(.inline)
+                ) {
+                    Text("Example and usage 2")
                 }
             }
             .navigationTitle("Navigation")
